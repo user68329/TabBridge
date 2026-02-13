@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001AA /* TabBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001AB /* TabBridgeApp.swift */; };
+		A10002AA /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002AB /* Device.swift */; };
+		A10003AA /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10003AB /* Tab.swift */; };
+		A10004AA /* CloudTabsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10004AB /* CloudTabsDatabase.swift */; };
+		A10005AA /* DatabaseMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10005AB /* DatabaseMonitor.swift */; };
+		A10006AA /* BrowserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10006AB /* BrowserService.swift */; };
+		A10007AA /* URLOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10007AB /* URLOpener.swift */; };
+		A10008AA /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10008AB /* AppState.swift */; };
+		A10009AA /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10009AB /* MenuBarView.swift */; };
+		A1000AAA /* MainWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000AAB /* MainWindowView.swift */; };
+		A1000BAA /* DeviceSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000BAB /* DeviceSectionView.swift */; };
+		A1000CAA /* TabRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000CAB /* TabRowView.swift */; };
+		A1000EAA /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000EAB /* PermissionView.swift */; };
+		A10011AA /* TabPreviewPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10011AC /* TabPreviewPanel.swift */; };
+		A10013AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10013AB /* AppDelegate.swift */; };
+		A10014AA /* TabSortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10014AB /* TabSortOrder.swift */; };
+		A1000FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000FAB /* Assets.xcassets */; };
+		A10010AA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A10010AB /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1FF0001 /* TabBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10001AB /* TabBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBridgeApp.swift; sourceTree = "<group>"; };
+		A10002AB /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		A10003AB /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		A10004AB /* CloudTabsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTabsDatabase.swift; sourceTree = "<group>"; };
+		A10005AB /* DatabaseMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseMonitor.swift; sourceTree = "<group>"; };
+		A10006AB /* BrowserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserService.swift; sourceTree = "<group>"; };
+		A10007AB /* URLOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLOpener.swift; sourceTree = "<group>"; };
+		A10008AB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A10009AB /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		A1000AAB /* MainWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowView.swift; sourceTree = "<group>"; };
+		A1000BAB /* DeviceSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSectionView.swift; sourceTree = "<group>"; };
+		A1000CAB /* TabRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRowView.swift; sourceTree = "<group>"; };
+		A1000EAB /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		A1000FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10010AB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A10011AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10012AB /* TabBridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TabBridge.entitlements; sourceTree = "<group>"; };
+		A10011AC /* TabPreviewPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPreviewPanel.swift; sourceTree = "<group>"; };
+		A10013AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10014AB /* TabSortOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSortOrder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1FF0010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10010AA /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1FF0020 = {
+			isa = PBXGroup;
+			children = (
+				A1FF0030 /* TabBridge */,
+				A1FF0040 /* Products */,
+				A1FF0050 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1FF0030 /* TabBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A10001AB /* TabBridgeApp.swift */,
+				A10013AB /* AppDelegate.swift */,
+				A10011AB /* Info.plist */,
+				A10012AB /* TabBridge.entitlements */,
+				A1000FAB /* Assets.xcassets */,
+				A1FF0031 /* Models */,
+				A1FF0032 /* Services */,
+				A1FF0033 /* State */,
+				A1FF0034 /* Views */,
+			);
+			path = TabBridge;
+			sourceTree = "<group>";
+		};
+		A1FF0031 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A10002AB /* Device.swift */,
+				A10003AB /* Tab.swift */,
+				A10014AB /* TabSortOrder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1FF0032 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A10004AB /* CloudTabsDatabase.swift */,
+				A10005AB /* DatabaseMonitor.swift */,
+				A10006AB /* BrowserService.swift */,
+				A10007AB /* URLOpener.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1FF0033 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				A10008AB /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		A1FF0034 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10009AB /* MenuBarView.swift */,
+				A1000AAB /* MainWindowView.swift */,
+				A1000BAB /* DeviceSectionView.swift */,
+				A1000CAB /* TabRowView.swift */,
+				A1000EAB /* PermissionView.swift */,
+				A10011AC /* TabPreviewPanel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1FF0040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FF0001 /* TabBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FF0050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A10010AB /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1FF0060 /* TabBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FF0080 /* Build configuration list for PBXNativeTarget "TabBridge" */;
+			buildPhases = (
+				A1FF0070 /* Sources */,
+				A1FF0010 /* Frameworks */,
+				A1FF0090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBridge;
+			productName = TabBridge;
+			productReference = A1FF0001 /* TabBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FF00A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A1FF0060 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = A1FF00B0 /* Build configuration list for PBXProject "TabBridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1FF0020;
+			productRefGroup = A1FF0040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1FF0060 /* TabBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1FF0090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000FAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1FF0070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001AA /* TabBridgeApp.swift in Sources */,
+				A10002AA /* Device.swift in Sources */,
+				A10003AA /* Tab.swift in Sources */,
+				A10004AA /* CloudTabsDatabase.swift in Sources */,
+				A10005AA /* DatabaseMonitor.swift in Sources */,
+				A10006AA /* BrowserService.swift in Sources */,
+				A10007AA /* URLOpener.swift in Sources */,
+				A10008AA /* AppState.swift in Sources */,
+				A10009AA /* MenuBarView.swift in Sources */,
+				A1000AAA /* MainWindowView.swift in Sources */,
+				A1000BAA /* DeviceSectionView.swift in Sources */,
+				A1000CAA /* TabRowView.swift in Sources */,
+				A1000EAA /* PermissionView.swift in Sources */,
+				A10011AA /* TabPreviewPanel.swift in Sources */,
+				A10013AA /* AppDelegate.swift in Sources */,
+				A10014AA /* TabSortOrder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1FF00C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1FF00C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A1FF00D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabBridge/TabBridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabBridge/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabbridge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1FF00D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabBridge/TabBridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabBridge/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabbridge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1FF00B0 /* Build configuration list for PBXProject "TabBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FF00C0 /* Debug */,
+				A1FF00C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FF0080 /* Build configuration list for PBXNativeTarget "TabBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FF00D0 /* Debug */,
+				A1FF00D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = A1FF00A0 /* Project object */;
+}
