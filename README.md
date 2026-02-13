@@ -12,6 +12,25 @@ Your Safari iCloud Tabs, instantly accessible. See every open tab from your iPho
 - **Quick Look** — preview a tab's page without leaving the app
 - **Keyboard-driven** — Return to open, Space to preview, standard multi-select
 
+## Download
+
+**[Download TabBridge v1.0.0](https://github.com/user68329/TabBridge/releases/latest)** (macOS 14+, Apple Silicon & Intel)
+
+### First launch (Gatekeeper)
+
+TabBridge is ad-hoc signed and not notarized, so macOS will block it on first launch. To open it:
+
+1. **Right-click** (or Control-click) `TabBridge.app` and choose **Open**
+2. Click **Open** in the dialog that appears
+
+Or from Terminal:
+
+```bash
+xattr -cr /Applications/TabBridge.app
+```
+
+You only need to do this once. After the first launch, TabBridge opens normally.
+
 ## Requirements
 
 - macOS 14 Sonoma or later
