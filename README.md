@@ -12,6 +12,12 @@ Your Safari iCloud Tabs, instantly accessible. See every open tab from your iPho
 - **Quick Look** — preview a tab's page without leaving the app
 - **Keyboard-driven** — Return to open, Space to preview, standard multi-select
 
+## Screenshots
+
+| ![Main window](screenshots/01%20Main%20window.png) | ![Right-click menu](screenshots/02%20Right-click%20menu.png) |
+|:---:|:---:|
+| Browse all iCloud tabs in one window | Open in any installed browser |
+
 ## Download
 
 **[Download TabBridge v1.0.0](https://github.com/user68329/TabBridge/releases/latest)** (macOS 14+, Apple Silicon & Intel)
